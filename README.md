@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="#">
+    <a>
       <img src="https://github.com/user-attachments/assets/fb1991c8-22b9-4764-aa10-707a89532e89" alt="Project Banner">
     </a>
   <br />
