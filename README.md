@@ -20,59 +20,57 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
+**CarePluse** is a modern healthcare patient management application that allows patients to easily register, book, and manage appointments with doctors.  
+It also features a powerful admin dashboard for scheduling, confirming, and canceling appointments, plus **SMS notifications** — all built using the power of **Next.js** and **Appwrite**.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+> 💬 Need help or facing bugs? Join our active **Discord** community of **34k+** developers for support and collaboration.
+
+---
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Appwrite
-- Typescript
-- TailwindCSS
-- ShadCN
-- Twilio
+- 🚀 **Next.js** — Frontend framework
+- 🛠 **Appwrite** — Authentication, Database & Storage
+- 🧠 **TypeScript** — Safer, typed JavaScript
+- 🎨 **TailwindCSS** — Utility-first styling
+- 🧩 **ShadCN** — Beautiful & accessible UI components
+- 📲 **Twilio** — For sending SMS confirmations
+
+---
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Register as a Patient**: Users can sign up and create a personal profile as a patient.
+- 👉 **Register as a Patient**: Create a secure patient profile
+- 👉 **Book Appointments**: Schedule multiple doctor visits
+- 👉 **Admin Dashboard**: View, manage & confirm appointments
+- 👉 **Cancel Appointments**: From admin side when needed
+- 👉 **SMS Confirmation**: Patients receive SMS updates
+- 👉 **Responsive UI**: Mobile-first, clean design
+- 👉 **Secure File Uploads**: With Appwrite’s bucket storage
+- 👉 **Sentry Monitoring**: Track and fix issues with ease
+- 👉 **Well-structured Architecture**: Clean code, reusable components
 
-👉 **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
+... and much more!
 
-👉 **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
-
-👉 **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
-
-👉 **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
-
-👉 **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
-
-👉 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
-
-👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
-
-👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
-
-and many more, including code architecture and reusability
+---
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+### 🔧 Prerequisites
 
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
+Ensure you have the following installed:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+---
+
+### 📦 Cloning the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/healthcare.git
-cd healthcare
-```
+git clone https://github.com/sp201004/CarePluse.git
+cd CarePluse
 
 **Installation**
 
