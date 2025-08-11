@@ -26,9 +26,9 @@ CarePluse is a comprehensive and modern healthcare management system designed to
 
 This platform empowers patients to seamlessly register, search for available doctors, book new appointments, and receive real-time notifications — all from the comfort of their device. On the other side, administrators can efficiently monitor and manage patient appointments, confirm or reschedule bookings, send SMS confirmations, and maintain an organized healthcare workflow.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
 
-## Technology Stack
+**Demo:** https://carepluse-five.vercel.app/
+## ⚙️ Tech Stack
 - **Frontend Framework**: Next.js 14 with TypeScript
 - **Styling**: TailwindCSS + ShadCN UI Components
 - **Backend Services**: Appwrite (Authentication, Database, Storage)
