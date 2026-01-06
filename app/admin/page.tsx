@@ -10,6 +10,39 @@ import { getRecentAppointmentList } from "@/lib/actions/appointment.actions";
 const AdminPage = async () => {
   const appointments = await getRecentAppointmentList();
 
+  // Handle case where appointments data is not available
+  if (!appointments) {
+    return (
+      <div className="mx-auto flex max-w-7xl flex-col space-y-14">
+        <header className="admin-header">
+          <Link href="/" className="cursor-pointer">
+            <Image
+              src="/assets/icons/logo-full.svg"
+              height={32}
+              width={162}
+              alt="logo"
+              className="h-8 w-fit"
+            />
+          </Link>
+
+          <div className="flex items-center gap-4">
+            <p className="text-16-semibold">Admin Dashboard</p>
+            <LogoutButton />
+          </div>
+        </header>
+
+        <main className="admin-main">
+          <section className="w-full space-y-4">
+            <h1 className="header">Welcome 👋</h1>
+            <p className="text-dark-700">
+              Unable to load appointments. Please try again later.
+            </p>
+          </section>
+        </main>
+      </div>
+    );
+  }
+
   return (
     <div className="mx-auto flex max-w-7xl flex-col space-y-14">
       <header className="admin-header">
